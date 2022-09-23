@@ -1,0 +1,11 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.min-footer>div {
+    flex: 1 0 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 50%;
+    line-height: 1.2;
+    font-size: 0px;
+}</style>
+<!-- end Simple Custom CSS and JS -->

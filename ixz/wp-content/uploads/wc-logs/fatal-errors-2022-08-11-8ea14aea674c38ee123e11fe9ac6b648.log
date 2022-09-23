@@ -1,0 +1,9 @@
+2022-08-11T09:01:04+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\mycommerce\wp-includes\Requests\Transport\cURL.php on line 462
+
+2022-08-11T09:50:35+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Table 'mycommerce.wp_actionscheduler_actions' doesn't exist in C:\xampp\htdocs\mycommerce\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:42
+Stack trace:
+#0 C:\xampp\htdocs\mycommerce\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(66): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#1 C:\xampp\htdocs\mycommerce\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(41): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\mycommerce\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\functions.php(19): ActionScheduler_ActionFactory->recurring('woocommerce_cle...', Array, false, 86400, '')
+#3 C:\xampp\htdocs\mycommerce\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(65): as_sche in C:\xampp\htdocs\mycommerce\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 42
+
